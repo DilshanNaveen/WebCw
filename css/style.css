@@ -31,12 +31,13 @@ nav{
 .nav-links{
     display: flex;
     width: 100%;
+    
 }
 .nav-links a{
     color: rgb(226, 226, 226);
     letter-spacing: 3px;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 85%;
     text-decoration:none;    
 }
 .nav-links li{
@@ -47,8 +48,8 @@ nav{
 }
 .nav-links a:hover{
     color: red;
-    font-size: 20px;
-    transition: font-size 0.3s;
+    font-size: 130%;
+    transition: font-size 0.7s;
 }
 
 .container{
