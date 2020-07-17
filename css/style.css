@@ -112,6 +112,7 @@ footer div a{
 
     .nav-links {
         position: absolute;
+        z-index: 1;
         right: 0px;
         height: 40vh;
         top:8vh;
@@ -120,6 +121,9 @@ footer div a{
         flex-direction: column;
         align-items: left;
         width: 50%;
+    }
+    .container h1{
+        font-size: 30px;
     }
 
 }
