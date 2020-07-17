@@ -75,6 +75,7 @@ footer{
     position: absolute;
     bottom: 0px;
     padding: 1%;
+    text-align: center;
 }
 footer div a{
     text-decoration:none;
