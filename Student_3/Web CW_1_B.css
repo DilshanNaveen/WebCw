@@ -1,0 +1,44 @@
+#quiz1 {
+margin: auto;
+width: 30%;
+padding: 10px;
+background-color: #e6e6e6;
+opacity: 0.9;
+
+}	
+
+body {
+background-image: url("reading.jpg");
+height:100%;
+background-size: cover;
+}
+
+button {
+background-color: white;
+}
+
+#num {
+text-align: center;
+padding-bottom: 5px;
+font-size: 25px;
+color: #e60000;
+}
+
+#start {
+text-align: center;
+padding-top: 5px;	
+font-size: 20px;
+color: #e60000;
+cursor: pointer;
+}
+
+#ans {
+font-size: 15px;
+padding: 5px;
+cursor: pointer;
+}
+
+#distime {
+font-size: 15px;
+}
+
