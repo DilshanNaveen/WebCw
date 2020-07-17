@@ -7,6 +7,7 @@
 body{
     background: url(../img/background3.jpg);
     background-size: cover;
+    overflow-x: hidden;
 }
 nav{
     display: flex;
@@ -60,4 +61,31 @@ nav{
 }
 .container h1:hover{
     text-shadow: 2px 2px 8px #FF0000;
+}
+
+footer{
+    background-color: #131720;
+    width: 100%;
+    height: 8vh;
+    align-items: baseline;
+}
+
+@media screen and (max-width:1471px){
+    
+}
+
+@media screen and (max-width:768px){
+
+    .nav-links {
+        position: absolute;
+        right: 0px;
+        height: 40vh;
+        top:8vh;
+        background-color: #131720;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        width: 50%;
+    }
+
 }
