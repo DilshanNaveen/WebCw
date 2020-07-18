@@ -1,10 +1,9 @@
-
 .feedback-form{
   width: 85%;
   max-width: 600px;
   background: #000000b3;
   position: absolute;
-  top: 50%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%,-50%);
   padding: 30px 40px;
@@ -18,14 +17,14 @@
   font-weight: 200;
   color: white;
 }
-.txtb{
+.txtb, .star-rating-input{
   border:1px solid gray;
   margin: 8px 0;
   padding: 12px 18px;
   border-radius: 8px;
 }
 
-.txtb label{
+.txtb label, .star-rating-input Label{
   display: block;
   text-align: left;
   color: white;
@@ -43,6 +42,56 @@
 }
 .txtb input:focus{
   border-bottom: 1px solid black;
+}
+.star-rating-input{
+  text-align: left;
+  width: 100%;
+  height: 80px;
+}
+.stars{
+  direction: rtl;
+  position: absolute;
+  width: 100%;
+  top: 53%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  
+}
+
+.stars Label{
+  display: inline-block;
+  width: 60px;
+  cursor: pointer;
+  margin:10px
+}
+
+.stars label:before{
+  content: '\2605';
+  position: absolute;
+  font-size: 60px;
+  display: inline-block;
+  
+}
+
+.stars input{
+  display: none;
+}
+
+
+.stars label:after{
+  content: '\2605';
+  position: absolute;
+  font-size: 60px;
+  display: inline-block;
+  color: yellow;
+  opacity: 0;
+  
+}
+
+.stars label:hover:after,
+.stars label:hover ~ label:after,
+.stars input:checked ~ label:after{
+    opacity: 100%;
 }
 
 .btn{
