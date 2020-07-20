@@ -4,6 +4,10 @@ rect {
   stroke:rgba(127, 128, 130, 1);
 }
 
+a:hover{
+  text-shadow: 1px 1px 20px white;
+}
+
 path {
   stroke-width: 2;
   stroke: rgba(127, 128, 130, 1);

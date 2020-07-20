@@ -9,5 +9,3 @@ function change() {
     counter = 0;
   }
 }
-
-change(); 
