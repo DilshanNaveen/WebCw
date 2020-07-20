@@ -67,7 +67,7 @@ nav{
     transition: font-size 0.7s;
 }
 
-.container{
+.headerContainer{
     position: absolute;
     top:50%;
     left: 50%;
