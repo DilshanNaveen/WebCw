@@ -13,9 +13,11 @@ path {
 text {
   font-size: 16px;
 }
+
 a {
   fill: white;
 }
+
 h1 {
   text-align: center;
   letter-spacing: 10px;
