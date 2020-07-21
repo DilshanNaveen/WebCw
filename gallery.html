@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Image Gallery</title>
+  <link rel="stylesheet" href="/css/gallery-style.css">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+  <!-- nav bar -->
+  <nav>
+    <div class="logo">
+      <h4>The Nav</h4>
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#">Merchandise</a></li>
+      <li><a href="gallery.html">Image Gallery</a></li>
+      <li><a href="#">Pop Quiz</a></li>
+      <li><a href="site-map.html">Sitemap</a></li>
+      <li><a href="feedback.html">Feedback</a></li>
+      <li><a href="#">About Us</a></li>
+    </ul>
+  </nav>
+  <div class="main-container">
+    <div class="left-container">
+      <label id="label-header">Settings</label>
+      <div class="dropdown-container">
+        <label class="changeable-text">Change Page Color</label>
+        <select name="" id="page-color" onchange="changePageColor(this.value);">
+          <option value="black">Black</option>
+          <option value="white">White</option>
+          <option value="red">Red</option>
+          <option value="blue">Blue</option>
+
+        </select>
+        <br>
+        <label class="changeable-text">Change Font color</label>
+        <select name="" id="font-color" onchange="changeFontColor(this.value);">
+          <option value="black">Black</option>
+          <option value="red">Red</option>
+          <option value="blue">Blue</option>
+          <option value="white">white</option>
+        </select>
+      </div>
+    </div>
+    <!-- Container for the image gallery -->
+    <div class="right-container">
+
+      <h1 id="image-title">What is Lorem Ipsum?</h1>
+
+      <!-- Full-width images with number text -->
+      <div class="mySlides">
+        <img src="/img/gallery/img_woods_wide.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <img src="/img/gallery/img_5terre_wide.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <img src="/img/gallery/img_mountains_wide.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <img src="/img/gallery/img_lights_wide.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <img src="/img/gallery/img_nature_wide.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <img src="/img/gallery/img_snow_wide.jpg" style="width:100%">
+      </div>
+
+      <!-- Next and previous buttons -->
+      <a class="back" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="forward" onclick="plusSlides(1)">&#10095;</a>
+
+      <!-- Thumbnail images -->
+      <div class="row">
+        <div class="column">
+          <img class="sample-image cursor" src="/img/gallery/img_woods_wide.jpg" style="width:100%"
+            onclick="currentSlide(1)" alt="The Woods">
+        </div>
+        <div class="column">
+          <img class="sample-image cursor" src="/img/gallery/img_5terre_wide.jpg" style="width:100%"
+            onclick="currentSlide(2)" alt="Cinque Terre">
+        </div>
+        <div class="column">
+          <img class="sample-image cursor" src="/img/gallery/img_mountains_wide.jpg" style="width:100%"
+            onclick="currentSlide(3)" alt="Mountains and fjords">
+        </div>
+        <div class="column">
+          <img class="sample-image cursor" src="/img/gallery/img_lights_wide.jpg" style="width:100%"
+            onclick="currentSlide(4)" alt="Northern Lights">
+        </div>
+        <div class="column">
+          <img class="sample-image cursor" src="/img/gallery/img_nature_wide.jpg" style="width:100%"
+            onclick="currentSlide(5)" alt="Nature and sunrise">
+        </div>
+        <div class="column">
+          <img class="sample-image cursor" src="/img/gallery/img_snow_wide.jpg" style="width:100%"
+            onclick="currentSlide(6)" alt="Snowy Mountains">
+        </div>
+      </div>
+      <!-- Descriptions for images -->
+
+      <!-- Descriptions for image number 1 -->
+      <div class="image-description-container">
+        <div class="image-description">
+          <h1 class="changeable-text">What is Lorem Ipsum?</h1>
+          <p class="changeable-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+            Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+            galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but
+            also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
+            with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+            publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+          <h1 class="changeable-text">Where does it come from?</h1>
+          <p class="changeable-text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in
+            a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin
+            professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur,
+            from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the
+            undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum"
+            (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of
+            ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..",
+            comes from a line in section 1.10.32.</p>
+        </div>
+
+
+        <!-- Descriptions for image number 2 -->
+        <div style="color: red;" class="image-description">
+          <h1 class="changeable-text">What is Lorem Ipsum?</h1>
+          <p class="changeable-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+            Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+            galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but
+            also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
+            with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+            publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+          <h1 class="changeable-text">Where does it come from?</h1>
+          <p class="changeable-text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in
+            a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin
+            professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur,
+            from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the
+            undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum"
+            (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of
+            ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..",
+            comes from a line in section 1.10.32.</p>
+        </div>
+
+        <!-- Descriptions for image number 3 -->
+        <div style="color: green;" class="image-description">
+          <h1 class="changeable-text">What is Lorem Ipsum?</h1>
+          <p class="changeable-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+            Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+            galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but
+            also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
+            with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+            publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+          <h1 class="changeable-text">Where does it come from?</h1>
+          <p class="changeable-text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in
+            a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin
+            professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur,
+            from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the
+            undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum"
+            (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of
+            ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..",
+            comes from a line in section 1.10.32.</p>
+        </div>
+        <!-- Descriptions for image number 4 -->
+        <div style="color: blue;" class="image-description">
+          <h1 class="changeable-text">What is Lorem Ipsum?</h1>
+          <p class="changeable-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+            Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+            galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but
+            also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
+            with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+            publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+          <h1 class="changeable-text">Where does it come from?</h1>
+          <p class="changeable-text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in
+            a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin
+            professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur,
+            from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the
+            undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum"
+            (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of
+            ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..",
+            comes from a line in section 1.10.32.</p>
+        </div>
+        <!-- Descriptions for image number 5 -->
+        <div style="color: yellow;" class="image-description">
+          <h1 class="changeable-text">What is Lorem Ipsum?</h1>
+          <p class="changeable-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+            Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+            galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but
+            also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
+            with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+            publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+          <h1 class="changeable-text">Where does it come from?</h1>
+          <p class="changeable-text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in
+            a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin
+            professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur,
+            from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the
+            undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum"
+            (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of
+            ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..",
+            comes from a line in section 1.10.32.</p>
+        </div>
+        <!-- Descriptions for image number 6 -->
+        <div style="color: gray;" class="image-description">
+          <h1 class="changeable-text">What is Lorem Ipsum?</h1>
+          <p class="changeable-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+            Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+            galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but
+            also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
+            with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+            publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+          <h1 class="changeable-text">Where does it come from?</h1>
+          <p class="changeable-text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in
+            a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin
+            professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur,
+            from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the
+            undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum"
+            (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of
+            ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..",
+            comes from a line in section 1.10.32.</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- footer -->
+  <footer>
+    <div class="about-us">
+      <a href="#">About us</a>
+    </div>
+  </footer>
+
+  <script src="/js/gallery.js"></script>
+</body>
+
+</html>
