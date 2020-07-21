@@ -78,6 +78,7 @@ nav{
 }
 
 footer{
+    flex: none;
     background-color: #131720;
     width: 100%;
     height: 8vh;
