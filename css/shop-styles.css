@@ -28,8 +28,9 @@ p {
     margin-left: 45%;
 }
 
-.items-img {
-    margin-top: -100px;
+.items-img{
+    margin-top: -130px;
+    
 }
 
 .heading {
@@ -41,3 +42,29 @@ p {
 .item>p {
     margin-top: 10px;
 }
+
+.item-head{
+    font-size: 30px;
+
+}
+.in-stoke{
+    color: #fff;
+    background-color: #5cb85c;
+    width: 100px;
+    height: auto;
+    text-align: center;
+
+}
+
+.out-of-stoke{
+    color: #fff;
+    background-color: #d9534f;
+    width: 120px;
+    height: auto;
+    text-align: center;
+}
+
+.price{
+    font-size: 25px;
+}
+
