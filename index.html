@@ -1,56 +1,107 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Main Menu</title>
-    <link rel="stylesheet" href="css/style.css"/>
-    <script src="js/main.js"></script>
-  </head>
-  <body>
 
-    <!-- nav bar -->
-    <nav>
-      <div class="logo">
-        <h4>The Nav</h4>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Main Menu</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="js/main.js"></script>
+</head>
+
+<body>
+
+  <!-- nav bar -->
+  <nav>
+    <div class="logo">
+      <h4>The Nav</h4>
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="shop.html">Souvenir</a></li>
+      <li class="image-gallery">
+        <a class="image-gallery-btn">Image Gallery</a>
+        <div class="image-gallery-content">
+          <a href="gallery.html">Nature</a>
+          <a href="Humanity.html">humanity</a>
+          <a href="Wild Life.html">Wild Life</a>
+        </div>
+      </li>
+      <li><a href="pop-quiz.html">Pop Quiz</a></li>
+      <li><a href="site-map.html">Sitemap</a></li>
+      <li><a href="feedback.html">Feedback</a></li>
+      <li><a href="about-us.html">About Us</a></li>
+    </ul>
+  </nav>
+
+  <video autoplay loop autobuffer muted playsinline>
+    <source src="video-backgrounds/background2.mp4" type="video/mp4">
+  </video>
+
+  <!-- content  -->
+  <div class="container">
+    <div class="headerContainer">
+      <h1 id="changeHeader"></h1>
+    </div>
+
+    <!-- Portfolio Gallery Grid -->
+    <div class="row">
+      <div class="column-one">
+        <div class="content">
+          <h2>බ්‍රක්ම බිනුර</h2>
+          <img src="img/readme/student-1.jpg" alt="Mountains" style="width:100%">
+        </div>
       </div>
-      <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="shop.html">Souvenir</a></li>
-        <li class="image-gallery">
-          <a class="image-gallery-btn">Image Gallery</a>
-          <div class="image-gallery-content">
-            <a href="gallery.html">Nature</a>
-            <a href="Humanity.html">humanity</a>
-            <a href="Wild Life.html">Wild Life</a>
+
+      <div class="column-two">
+        <div class="content">
+          <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in
+            a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin
+            professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur,
+            from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the
+            undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum"
+            (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of
+            ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..",
+            comes from a line in section 1.10.32.</p>
+        </div>
+      </div>
+      </div>
+
+      <!-- Portfolio Gallery Grid -->
+      <div class="row">
+        <div class="column-two">
+          <div class="content">
+            <h2>Bimalsha Ranawaka</h2>
+            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in
+              a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a
+              Latin
+              professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,
+              consectetur,
+              from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered
+              the
+              undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum"
+              (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of
+              ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit
+              amet..",
+              comes from a line in section 1.10.32.</p>
           </div>
-        </li>
-        <li><a href="pop-quiz.html">Pop Quiz</a></li>
-        <li><a href="site-map.html">Sitemap</a></li>
-        <li><a href="feedback.html">Feedback</a></li>
-        <li><a href="about-us.html">About Us</a></li>
-      </ul>
-    </nav>
+        </div>
 
-    <video autoplay loop autobuffer muted playsinline>
-      <source src="video-backgrounds/background2.mp4" type="video/mp4">
-    </video>
-
-    <!-- content  -->
-    <div class="container">
-      <div class="headerContainer">
-        <h1 id="changeHeader"></h1>
+        <div class="column-one">
+          <div class="content">
+            <img src="img/readme/student-3.jpg" alt="Mountains" style="width:100%">
+          </div>
+        </div>
       </div>
 
-    
-    <!-- footer -->
-    <footer>
-      <div class="about-us">
-        <a href="#">About us</a>
-      </div>
-    </footer>
+      <!-- footer -->
+      <footer>
+        <div class="about-us">
+          <a href="#">Back To Top</a>
+        </div>
+      </footer>
 
-    
-  </body>
+</body>
+
 </html>

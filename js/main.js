@@ -4,8 +4,8 @@ var delay = setInterval(change, 10000);
 
 function change() {
     document.getElementById("changeHeader").innerHTML = mainMenuHeaderText[counter];
-  counter++;
-  if (counter >= mainMenuHeaderText.length) {
-    counter = 0;
-  }
+    counter++;
+    if (counter >= mainMenuHeaderText.length) {
+        counter = 0;
+    }
 }
