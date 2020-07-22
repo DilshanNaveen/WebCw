@@ -14,16 +14,6 @@ function changeFontColor(color) {
     }
 }
 
-// Next/previous controls
-function plusSlides(n) {
-    displayGalleryImages(imageNumber += n);
-}
-
-// Thumbnail image controls
-function currentSlide(n) {
-    displayGalleryImages(imageNumber = n);
-}
-
 function displayGalleryImages(selectedImage) {
     var images = document.getElementsByClassName("mySlides");
     var sampleImage = document.getElementsByClassName("sample-image");
