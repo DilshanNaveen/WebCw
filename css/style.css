@@ -245,6 +245,8 @@ h1 {
     }
 }
 
+
+/* 
 footer {
     flex: none;
     background-color: rgba(255, 255, 255, 0.9);
@@ -261,3 +263,5 @@ footer div a {
     display: flex;
     flex-direction: column;
 }
+
+*/
