@@ -15,5 +15,5 @@
 |-------|------------|---------------|
 |Student 1|Binura|<img style="width:30%" src="img/Team/student-1.jpg">|
 |Student 2|Dilshan|<img style="width:30%" src="img/Team/student-2.jpg">|
-|Student 3|Bimalsha|<img style="width:30%" src="img/Team/student-3.jpg">|
-|Student 4|Sithija|<img style="width:30%" src="img/Team/student-4.jpg">|
+|Student 3|Sithija|<img style="width:30%" src="img/Team/student-4.jpg">|
+|Student 4|Bimalsha|<img style="width:30%" src="img/Team/student-3.jpg">|
