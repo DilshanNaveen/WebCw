@@ -1,34 +1,29 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
 
-body{
+body {
     display: grid;
     grid-template-rows: auto;
-    grid-template-areas: 
-    
-        "items"
-        "item-imgs";
-
+    grid-template-areas: "items" "item-imgs";
 }
 
-img{
+img {
     width: 400px;
     height: auto;
     margin-left: 200px;
-
 }
 
-p{
+p {
     color: #000;
 }
 
-.item-list{
+.item-list {
     margin-left: 10%;
 }
 
-.item{
+.item {
     margin-top: 5%;
     margin-left: 45%;
 }
@@ -38,14 +33,13 @@ p{
     
 }
 
-.heading{
-
+.heading {
     font-size: 72px;
     margin-top: 100px;
     margin-left: 230px;
 }
 
-.item > p{
+.item>p {
     margin-top: 10px;
 }
 
