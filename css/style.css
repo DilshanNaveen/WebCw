@@ -12,7 +12,7 @@
 }
 body{
     overflow-x: hidden;
-    background-color: rgb(255, 255, 255);
+    background-color: #f7f9fb
 }
 body video{
     position: relative;
@@ -28,8 +28,9 @@ nav{
     justify-content: left;
     align-items: center;
     min-height: 8vh;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(247, 249, 251, 0.9);
 }
+
 .logo{
     position: relative;
     left: 10%;
@@ -62,7 +63,7 @@ nav{
     margin-left: 1%;
 }
 .nav-links a:hover{
-    color: red;
+    color: #4b7c3f;
     font-size: 130%;
     transition: font-size 0.7s;
 }
