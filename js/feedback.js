@@ -6,6 +6,7 @@ var val;
 var userRate;
 
 function sendfeedback() {
+    
     var radios = document.getElementsByName('rating');
     userName = document.getElementById("userName").value;
     userEmail = document.getElementById("userEmail").value;
@@ -27,7 +28,6 @@ function sendfeedback() {
     document.getElementById("userMessage").value = userMessage;
 
 }
-
 
 function closePopUpWindow() {
     document.getElementById("pop-up-form").style.display = "none";

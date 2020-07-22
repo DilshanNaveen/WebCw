@@ -1,11 +1,11 @@
-.feedback-form{
+.feedback-form {
   width: 85%;
   max-width: 600px;
   background: rgba(255, 255, 255, 0.8);
   position: absolute;
   top: 60%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   padding: 30px 40px;
   box-sizing: border-box;
   border-radius: 8px;
@@ -14,7 +14,7 @@
   border: 1px solid rgba(255, 255, 255, 0.9);
 }
 
-#pop-up-form{
+#pop-up-form {
   display: none;
   width: 35%;
   max-width: 600px;
@@ -22,7 +22,7 @@
   position: absolute;
   top: 60%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   padding: 30px 40px;
   box-sizing: border-box;
   border-radius: 8px;
@@ -31,37 +31,39 @@
   border: 1px solid rgba(255, 255, 255, 0.9);
 }
 
-.pop-up-content{
+.pop-up-content {
   text-align: left;
   font-size: 15px;
 }
 
-.pop-up-content span{
-  font-style:normal;
+.pop-up-content span {
+  font-style: normal;
 }
 
-.messageBorder{
-  border:1px solid black;
+.messageBorder {
+  border: 1px solid black;
 }
 
-.displayArea{
+.displayArea {
   width: 100%;
 }
 
-.feedback-form h1{
+.feedback-form h1 {
   margin-top: 0;
   font-weight: 200;
   color: black;
 }
 
-.txtb, .star-rating-input{
-  border:1px solid gray;
+.txtb,
+.star-rating-input {
+  border: 1px solid gray;
   margin: 8px 0;
   padding: 12px 18px;
   border-radius: 8px;
 }
 
-.txtb label, .star-rating-input Label{
+.txtb label,
+.star-rating-input Label {
   display: block;
   text-align: left;
   color: black;
@@ -69,7 +71,8 @@
   font-size: 14px;
 }
 
-.txtb input,.txtb textarea{
+.txtb input,
+.txtb textarea {
   width: 100%;
   border: none;
   background: none;
@@ -79,62 +82,60 @@
   margin-top: 6px;
 }
 
-.txtb input:focus{
+.txtb input:focus {
   border-bottom: 1px solid white;
 }
 
-.star-rating-input{
+.star-rating-input {
   text-align: left;
   width: 100%;
   height: 80px;
 }
 
-.stars{
+.stars {
   direction: rtl;
   position: absolute;
   width: 100%;
   top: 53%;
   left: 80%;
-  transform: translate(-50%, -50%);  
+  transform: translate(-50%, -50%);
 }
 
-.stars Label{
+.stars Label {
   display: inline-block;
   width: 60px;
   cursor: pointer;
-  margin:10px
+  margin: 10px;
 }
 
-.stars label:before{
-  content: '\2605';
+.stars label:before {
+  content: "\2605";
   position: absolute;
   font-size: 60px;
   display: inline-block;
   color: rgba(0, 0, 0, 0.8);
 }
 
-.stars input{
+.stars input {
   display: none;
 }
 
-
-.stars label:after{
-  content: '\2605';
+.stars label:after {
+  content: "\2605";
   position: absolute;
   font-size: 60px;
   display: inline-block;
   color: rgba(255, 247, 8, 0.8);
   opacity: 0;
-  
 }
 
 .stars label:hover:after,
 .stars label:hover ~ label:after,
-.stars input:checked ~ label:after{
-    opacity: 100%;
+.stars input:checked ~ label:after {
+  opacity: 100%;
 }
 
-.btn{
+.btn {
   display: inline-block;
   background: rgba(36, 36, 36, 0.9);
   border: 1px solid rgba(255, 255, 255, 0.9);
@@ -145,6 +146,6 @@
   margin-top: 8px;
   width: 100%;
 }
-#closePopUp{
+#closePopUp {
   width: 50%;
 }
