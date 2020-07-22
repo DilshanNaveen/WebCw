@@ -1,8 +1,9 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-.pop-quiz{
+
+.pop-quiz {
     position: fixed;
     top: 30%;
     width: 100%;
@@ -15,82 +16,83 @@
     padding: 10px;
     background-color: #ffe6cc;
     opacity: 0.9;
-  }
+}
+
 body {
-  background-image: url("reading.jpg");
-  height: 100%;
-  background-size: cover;
+    background-image: url("reading.jpg");
+    height: 100%;
+    background-size: cover;
 }
 
 button {
-  background-color: white;
+    background-color: white;
 }
 
 button:hover {
-  color: white;
-  background-color: black;
+    color: white;
+    background-color: black;
 }
 
 #answer_1,
 #answer_2 {
-  font-family: Perpetua;
+    font-family: Perpetua;
 }
 
 #num {
-  text-align: center;
-  padding-bottom: 5px;
-  font-size: 25px;
-  color: #804000;
+    text-align: center;
+    padding-bottom: 5px;
+    font-size: 25px;
+    color: #804000;
 }
 
 #start {
-  text-align: center;
-  padding-top: 0px;
-  font-size: 20px;
-  color: black;
-  width: 25%;
-  margin: auto;
-  background-color: #ff9900;
-  cursor: pointer;
-  font-family: Impact;
+    text-align: center;
+    padding-top: 0px;
+    font-size: 20px;
+    color: black;
+    width: 25%;
+    margin: auto;
+    background-color: #ff9900;
+    cursor: pointer;
+    font-family: Impact;
 }
 
 #ans {
-  font-size: 15px;
-  padding: 5px;
-  cursor: pointer;
+    font-size: 15px;
+    padding: 5px;
+    cursor: pointer;
 }
 
 #distime {
-  font-size: 15px;
+    font-size: 15px;
 }
 
 .wrong {
-  color: #008000;
-  font-size: 20px;
-  font-family: Helvetica;
+    color: #008000;
+    font-size: 20px;
+    font-family: Helvetica;
 }
 
 .correct {
-  color: #990000;
-  font-size: 20px;
-  font-family: Helvetica;
+    color: #990000;
+    font-size: 20px;
+    font-family: Helvetica;
 }
 
 .time_out {
-  color: #00004d;
-  font-size: 20px;
-  font-family: Helvetica;
+    color: #00004d;
+    font-size: 20px;
+    font-family: Helvetica;
 }
 
 #display7 {
-  color: #990000;
-  font-size: 20px;
-  font-family: Serif;
+    color: #990000;
+    font-size: 20px;
+    font-family: Serif;
 }
 
 #display8 {
-  color: #990000;
-  font-size: 20px;
-  font-family: Serif;
+    color: #990000;
+    font-size: 20px;
+    font-family: Serif;
 }
