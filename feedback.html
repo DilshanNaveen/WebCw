@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title></title>
-    <link rel="stylesheet" href="css/feedback-style.css">
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
-    
-  <!-- nav bar --> 
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title></title>
+  <link rel="stylesheet" href="css/feedback-style.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- nav bar -->
   <nav>
     <div class="logo">
       <h4>The Nav</h4>
@@ -31,38 +33,54 @@
   </video>
 
   <div class="feedback-form">
+
     <h1>Feedback</h1>
     <div class="txtb">
       <label>Name</label>
-      <input type="text" name="">
+      <input type="text" id="userName">
     </div>
 
     <div class="txtb">
       <label>Email</label>
-      <input type="email" name="">
+      <input type="email" id="userEmail">
     </div>
 
     <div class="txtb">
       <label>Phone Number</label>
-      <input type="text" name="">
+      <input type="text" id="userPhoneNumber">
     </div>
 
     <div class="star-rating-input">
       <label>Rate</label>
       <div class="stars">
-        <input type="radio" name="rating" id="star-one"><label for="star-one"></label>
-        <input type="radio" name="rating" id="star-two"><label for="star-two"></label>
-        <input type="radio" name="rating" id="star-three"><label for="star-three"></label>
-        <input type="radio" name="rating" id="star-four"><label for="star-four"></label>
-        <input type="radio" name="rating" id="star-five"><label for="star-five"></label>
+        <input type="radio" name="rating" value="Five Stars" id="star-one"><label for="star-one"></label>
+        <input type="radio" name="rating" value="Four Stars" id="star-two"><label for="star-two"></label>
+        <input type="radio" name="rating" value="Three Stars" id="star-three"><label for="star-three"></label>
+        <input type="radio" name="rating" value="Two Stars" id="star-four"><label for="star-four"></label>
+        <input type="radio" name="rating" value="One Star" id="star-five"><label for="star-five"></label>
       </div>
     </div>
 
     <div class="txtb">
       <label>Message</label>
-      <textarea></textarea>
+      <textarea id="message"></textarea>
     </div>
-    <a class="btn">Send</a>
+    <a class="btn" onclick="sendfeedback()">Send</a>
   </div>
-  </body>
+
+  <div id="pop-up-form">
+    <h1>Thank You For Your Feedback</h1>
+    <div class = "pop-up-content">
+      <h3>Customer Name : <input type="text" disabled="disabled" class="displayArea" id="name"></h3>
+      <h3>Customer Email : <input type="text" disabled="disabled"  class="displayArea" id="email"></h3>
+      <h3>Contact Number : <input type="text" disabled="disabled"  class="displayArea" id="customerPhoneNumber"></h3>
+      <h3>Rate : <input type="text" disabled="disabled"  class="displayArea" id="userRate"></h3>
+      <h3>Customer Message :</h3><textarea id="userMessage" class="displayArea" disabled="disabled" ></textarea>
+    </div>
+    <a class="btn" id="closePopUp" onclick="closePopUpWindow()">Close</a>
+  </div>
+
+  <script src="js/feedback.js"></script>
+</body>
+
 </html>

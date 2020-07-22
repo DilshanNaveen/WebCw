@@ -14,6 +14,40 @@
   border: 1px solid rgba(255, 255, 255, 0.9);
 }
 
+#pop-up-form{
+  display: none;
+  width: 35%;
+  max-width: 600px;
+  background: rgba(216, 88, 3, 0.9);
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  padding: 30px 40px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 0 20px #000000b3;
+  border: 1px solid rgba(255, 255, 255, 0.9);
+}
+
+.pop-up-content{
+  text-align: left;
+  font-size: 15px;
+}
+
+.pop-up-content span{
+  font-style:normal;
+}
+
+.messageBorder{
+  border:1px solid black;
+}
+
+.displayArea{
+  width: 100%;
+}
+
 .feedback-form h1{
   margin-top: 0;
   font-weight: 200;
@@ -110,4 +144,7 @@
   cursor: pointer;
   margin-top: 8px;
   width: 100%;
+}
+#closePopUp{
+  width: 50%;
 }
