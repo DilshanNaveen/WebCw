@@ -3,7 +3,7 @@
   }
   
   .main-container {
-    color: white;
+    color: black;
     display: flex;
   }
   
@@ -11,7 +11,7 @@
     margin-top: 5%;
     padding: 1%;
     width: 20%;
-    border: 1px solid white;
+    border: 1px solid black;
     position: relative;
     font-size: 20px;
   }
@@ -36,7 +36,7 @@
     margin-top: 5%;
     padding: 1%;
     width: 80%;
-    border: 1px solid white;
+    border: 1px solid black;
     position: relative;
   }
   
@@ -52,7 +52,7 @@
     width: auto;
     padding: 16px;
     margin-top: -50px;
-    color: white;
+    color: black;
     font-weight: bold;
     font-size: 20px;
     border-radius: 0 3px 3px 0;
