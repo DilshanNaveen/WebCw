@@ -1,16 +1,16 @@
 rect {
-  fill: rgba(19, 23, 32, 0.9);
+  fill: rgba(255, 255, 255, 0.9);
   stroke-width:3;
-  stroke:rgba(127, 128, 130, 1);
+  stroke:rgb(0, 0, 0);
 }
 
 a:hover{
-  text-shadow: 1px 1px 20px white;
+  text-shadow: 1px 1px 20px black;
 }
 
 path {
   stroke-width: 2;
-  stroke: rgba(127, 128, 130, 1);
+  stroke: rgba(0, 0, 0, 1);
   stroke-width:3;
 }
 
@@ -19,7 +19,7 @@ text {
 }
 
 a {
-  fill: white;
+  fill: black;
 }
 
 h1 {
