@@ -11,21 +11,22 @@
 }
 
 #quiz1 {
+    font-size: 40px;
+    position: relative;
+    top: -15%;
     margin: auto;
-    width: 30%;
+    width: 90%;
+    height: 80%;
     padding: 10px;
-    background-color: #ffe6cc;
+    border: 1px solid black;
     opacity: 0.9;
-}
-
-body {
-    background-image: url("reading.jpg");
-    height: 100%;
-    background-size: cover;
 }
 
 button {
     background-color: white;
+    width: 200px;
+    height: 50px;
+    margin: 5px;
 }
 
 button:hover {
@@ -33,24 +34,27 @@ button:hover {
     background-color: black;
 }
 
-#answer_1,
-#answer_2 {
-    font-family: Perpetua;
-}
-
 #num {
     text-align: center;
     padding-bottom: 5px;
-    font-size: 25px;
+    font-size: 55px;
     color: #804000;
 }
 
+hr {
+    position: relative;
+    top: 50%;
+}
+
 #start {
+    position: relative;
+    top: 50%;
     text-align: center;
     padding-top: 0px;
     font-size: 20px;
     color: black;
     width: 25%;
+    height: 10%;
     margin: auto;
     background-color: #ff9900;
     cursor: pointer;
@@ -69,30 +73,25 @@ button:hover {
 
 .wrong {
     color: #008000;
-    font-size: 20px;
-    font-family: Helvetica;
+    font-size: 40px;
 }
 
 .correct {
     color: #990000;
-    font-size: 20px;
-    font-family: Helvetica;
+    font-size: 40px;
 }
 
 .time_out {
     color: #00004d;
-    font-size: 20px;
-    font-family: Helvetica;
+    font-size: 40px;
 }
 
 #display7 {
     color: #990000;
-    font-size: 20px;
-    font-family: Serif;
+    font-size: 40px;
 }
 
 #display8 {
     color: #990000;
-    font-size: 20px;
-    font-family: Serif;
+    font-size: 40px;
 }
