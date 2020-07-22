@@ -3,12 +3,13 @@ float: left;
 width: 25%;
 height:657px;
 margin:0px;
+font-family: Serif;
 }
 
 h1 {
 position: absolute;
 bottom: 0px;
-color:white;
+color: black;
 font-size:100px;
 margin-left: 120px;
 margin-bottom: 35px;
@@ -25,7 +26,6 @@ top: 180px;
 width: 260px;
 height: 260px;
 border-radius: 50%;
-object-fit: scale-down;
 border-style: solid;
 border-color: white;
 margin-left: 36px;
@@ -34,25 +34,25 @@ margin-left: 36px;
 
 p {
 font-size:20px;
--webkit-transform: translate(-50%, -50%);
--ms-transform: translate(-50%, -50%);
 transform: translate(-50%, -50%);
 text-align: center;
 }
 
 .stu_details {
 position: absolute;
-top: 293px;
-margin-left: 168.5px;
+top: 288px;
+margin-left: 169px;
 height: 260px;
 width: 260px;
 opacity: 0;
 transition: .1s ease;
 border-radius: 50%;
-background-color: #008CBA;
+background-color: #ffb366;
 }
 
 
 .display:hover .stu_details {
 opacity: 1;
+font-size: 25px;
+font-family: Helvetica;
 }
