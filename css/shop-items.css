@@ -1,3 +1,63 @@
-.items-img{
-    margin-top: -130px;
+* {
+    padding: 0;
+    margin: 0;
 }
+
+
+.images{
+    margin-top: 200px;
+    margin-left: 300px;
+}
+
+.new-arrival{
+    background-color: green;
+    width: 40px;
+    height: 15px;
+    font-size: 12px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+.content{
+    margin-top: -600px;
+    margin-left: 950px;
+}
+
+.order-info{
+    margin-top: 15px;
+    line-height: 25px;
+}
+
+.price{
+    font-size: 20px;
+}
+
+.in-stoke{
+    color: #fff;
+    background-color: #5cb85c;
+    text-align: center;
+    padding: 5px;
+
+}
+
+input{
+
+    border: 1px solid #000;
+    height: 33px;
+    width: 35px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+select,option{
+    height: 33px;
+    width: 60px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+
+}
+

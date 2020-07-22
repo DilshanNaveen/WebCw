@@ -51,17 +51,17 @@ p {
     color: #fff;
     background-color: #5cb85c;
     width: 100px;
-    height: auto;
     text-align: center;
+    padding: 6px;
 
 }
 
 .out-of-stoke{
     color: #fff;
     background-color: #d9534f;
-    width: 120px;
-    height: auto;
+    width: 100px;
     text-align: center;
+    padding: 6px;
 }
 
 .price{
