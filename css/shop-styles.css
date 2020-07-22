@@ -1,15 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    
+        "items"
+        "item-imgs";
+
+}
+
+img{
+    width: 400px;
+    height: auto;
+    margin-left: 200px;
+
+}
+
 p{
     color: #000;
 }
 
-.header{
-
+.item-list{
+    margin-left: 10%;
 }
 
-.main{
-
+.item{
+    margin-top: 5%;
+    margin-left: 45%;
 }
 
-.footer{
-    
+.items-img{
+    margin-top: -100px;
+}
+
+.heading{
+
+    font-size: 72px;
+    margin-top: 100px;
+    margin-left: 230px;
+}
+
+.item > p{
+    margin-top: 10px;
 }
