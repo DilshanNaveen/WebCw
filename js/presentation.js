@@ -1,5 +1,5 @@
 
 function Redirect()
 {
-    window.location = "index.html";
+    window.location = "main-manu.html";
 }
