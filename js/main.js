@@ -1,4 +1,4 @@
-var mainMenuHeaderText = ["Welcome To bla bla Site", "Fill Your Life With Adventures,", "Create Your Story"];
+var mainMenuHeaderText = ["Fill Your Life With Adventures,", "Create Your Own Story", "Welcome to Tourist's Destiny"];
 var counter = 0;
 var delay = setInterval(change, 10000);
 
