@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.main-image{
+    width: 700px;
+    border: 5px solid;
+}
+
+.team-members{
+    width: 100px;
+    height: auto;
+}
+
+.header{
+    margin-top: -1000px;
+    margin-left: 800px;
+    font-weight: bolder;
+}
+
+.team-list{
+    margin-left: 1200px;
+}
