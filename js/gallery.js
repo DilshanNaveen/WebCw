@@ -9,8 +9,9 @@ function changePageColor(color) {
 
 // color changing function.
 function changeFontColor(color) {
+	var textElements = document.getElementsByClassName("changeable-text");
     for (counter = 0; counter < textElements.length; counter++) {
-        document.getElementsByClassName("changeable-text")[counter].style.color = color;
+        textElements[counter].style.color = color;
     }
 }
 
@@ -38,8 +39,8 @@ function displayGalleryImages(selectedImage) {
     }
 
     // display image and Description
-    images[imageNumber - 1].style.display = "block";
-    imageDescription[imageNumber - 1].style.display = "block";
+    images[selectedImage - 1].style.display = "block";
+    imageDescription[selectedImage - 1].style.display = "block";
 
 }
 
