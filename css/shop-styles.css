@@ -59,12 +59,14 @@ p {
 .out-of-stoke{
     color: #fff;
     background-color: #d9534f;
-    width: 100px;
+    width: 120px;
     text-align: center;
     padding: 6px;
 }
 
 .price{
     font-size: 25px;
+    color: #31708E;
+    font-weight: bold;
 }
 
