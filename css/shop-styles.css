@@ -37,6 +37,7 @@ p {
     font-size: 72px;
     margin-top: 100px;
     text-align: center;
+    font-weight: bold;
 }
 
 .item>p {
@@ -67,7 +68,7 @@ p {
 .price{
     font-size: 25px;
     color: #31708E;
-    font-weight: bold;
+    font-weight: 900;
 }
 
 a{
