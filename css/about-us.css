@@ -55,3 +55,7 @@ p {
     opacity: 1;
     font-size: 20px;
 }
+
+.flex-remover {
+    bottom: 0;
+}
