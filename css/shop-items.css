@@ -27,11 +27,13 @@
 
 .order-info{
     margin-top: 15px;
-    line-height: 25px;
+    line-height: 50px;
 }
 
 .price{
-    font-size: 20px;
+    font-size: 25px;
+    color: #31708E;
+    font-weight: bolder;
 }
 
 .in-stoke{
@@ -40,6 +42,14 @@
     text-align: center;
     padding: 5px;
 
+}
+
+.out-of-stoke{
+    color: #fff;
+    background-color: #d9534f;
+    text-align: center;
+    padding: 5px;
+    width: 10px;
 }
 
 input{
@@ -60,4 +70,41 @@ select,option{
     font-weight: bold;
 
 }
+.buying-btn{
+    background-color: #31708E;
+    font-size: 30px;
+    color: #fff;
+    padding: 10px;
+    width: 500px;
+}
+
+.buying-btn:hover{
+
+    background-color: #5085A1;
+    
+
+}
+
+.information{
+    margin-top: 200px;
+    margin-left: 20%;
+}
+
+.detail-list{
+    margin-left: 10%;
+    margin-top: 10px;
+    line-height: 50px;
+
+}
+
+.icon{
+    width: 20px;
+    height: auto;
+    
+
+}
+
+
+
+
 
