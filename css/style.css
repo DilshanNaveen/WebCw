@@ -9,7 +9,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Poppins-font;
+    font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -153,6 +153,22 @@ nav {
 
 
 /* Center website */
+
+.main-articles {
+    box-shadow: 2px 2px 8px black;
+    margin: 1% 0 1% 0;
+    padding: 0.5%;
+}
+
+.main-articles>.article-title {
+    position: relative;
+    right: 10%;
+    text-align: right;
+}
+
+.article-title>h1 {
+    font-size: 520%;
+}
 
 .main {
     max-width: 1000px;
