@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Tourist's Destiny</title>
+    <title>Image Gallery</title>
     <link rel="stylesheet" href="css/gallery-style.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -64,7 +64,7 @@
           <option value="black">Black</option>
           <option value="red">Red</option>
           <option value="blue">Blue</option>
-          <option value="white">white</option>
+          <option value="green">Green</option>
         </select>
             </div>
         </div>
@@ -105,22 +105,22 @@
             <!-- Thumbnail images -->
             <div class="row">
                 <div class="column">
-                    <img class="sample-image cursor" src="img/gallery/img_woods_wide.jpg" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+                    <img class="sample-image cursor" src="img/gallery/img_woods_wide.jpg" style="width:100%" onclick="displayGalleryImages(1)" alt="The Woods">
                 </div>
                 <div class="column">
-                    <img class="sample-image cursor" src="img/gallery/img_5terre_wide.jpg" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+                    <img class="sample-image cursor" src="img/gallery/img_5terre_wide.jpg" style="width:100%" onclick="displayGalleryImages(2)" alt="Cinque Terre">
                 </div>
                 <div class="column">
-                    <img class="sample-image cursor" src="img/gallery/img_mountains_wide.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+                    <img class="sample-image cursor" src="img/gallery/img_mountains_wide.jpg" style="width:100%" onclick="displayGalleryImages(3)" alt="Mountains and fjords">
                 </div>
                 <div class="column">
-                    <img class="sample-image cursor" src="img/gallery/img_lights_wide.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+                    <img class="sample-image cursor" src="img/gallery/img_lights_wide.jpg" style="width:100%" onclick="displayGalleryImages(4)" alt="Northern Lights">
                 </div>
                 <div class="column">
-                    <img class="sample-image cursor" src="img/gallery/img_nature_wide.jpg" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+                    <img class="sample-image cursor" src="img/gallery/img_nature_wide.jpg" style="width:100%" onclick="displayGalleryImages(5)" alt="Nature and sunrise">
                 </div>
                 <div class="column">
-                    <img class="sample-image cursor" src="img/gallery/img_snow_wide.jpg" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
+                    <img class="sample-image cursor" src="img/gallery/img_snow_wide.jpg" style="width:100%" onclick="displayGalleryImages(6)" alt="Snowy Mountains">
                 </div>
             </div>
             <!-- Descriptions for images -->
@@ -140,7 +140,7 @@
 
 
                 <!-- Descriptions for image number 2 -->
-                <div style="color: red;" class="image-description">
+                <div class="image-description">
                     <h1 class="changeable-text">What is Lorem Ipsum?</h1>
                     <p class="changeable-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
                         specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
@@ -154,7 +154,7 @@
                 </div>
 
                 <!-- Descriptions for image number 3 -->
-                <div style="color: green;" class="image-description">
+                <div class="image-description">
                     <h1 class="changeable-text">What is Lorem Ipsum?</h1>
                     <p class="changeable-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
                         specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
@@ -167,7 +167,7 @@
                         "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
                 </div>
                 <!-- Descriptions for image number 4 -->
-                <div style="color: blue;" class="image-description">
+                <div class="image-description">
                     <h1 class="changeable-text">What is Lorem Ipsum?</h1>
                     <p class="changeable-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
                         specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
@@ -180,7 +180,7 @@
                         "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
                 </div>
                 <!-- Descriptions for image number 5 -->
-                <div style="color: yellow;" class="image-description">
+                <div class="image-description">
                     <h1 class="changeable-text">What is Lorem Ipsum?</h1>
                     <p class="changeable-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
                         specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
@@ -193,7 +193,7 @@
                         "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
                 </div>
                 <!-- Descriptions for image number 6 -->
-                <div style="color: gray;" class="image-description">
+                <div class="image-description">
                     <h1 class="changeable-text">What is Lorem Ipsum?</h1>
                     <p class="changeable-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
                         specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
