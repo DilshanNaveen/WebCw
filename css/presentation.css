@@ -20,7 +20,14 @@
     margin-left: 780px;
     line-height: 20px;
     font-weight: bolder;
+    
+}
+.bg-color{
     background-color: lightgray;
+    padding: 30px;
+    width: 775px;
+    border: dotted 5px;
+
 }
 
 .team-list{
