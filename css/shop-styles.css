@@ -70,3 +70,23 @@ p {
     font-weight: bold;
 }
 
+a{
+    text-decoration: none;
+
+}
+
+a:link {
+    color: black;
+  }
+
+a:visited {
+    color: blue;
+  }
+
+a:hover {
+    color: rgb(82, 82, 82);
+  }
+
+a:active {
+    color: blue;
+  }
